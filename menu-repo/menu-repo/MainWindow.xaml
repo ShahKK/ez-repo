@@ -1,0 +1,14 @@
+﻿<Window x:Class="menu_repo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:menu_repo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="256,0,-992,-1614" Background="#FFFBFBFB" Visibility="Visible" Height="2048">
+        <Button x:Name="Tinder" Content="Let Us Recommend For you" HorizontalAlignment="Center" Height="113" Margin="0,1230,0,0" VerticalAlignment="Top" Width="530" RenderTransformOrigin="0.537,0.336" FontFamily="Arial" FontSize="36" Click="Button_Click" FontStyle="Normal" FontWeight="Normal" BorderBrush="#FF555252" Background="White"/>
+        <Button x:Name="Menu" Content="Full Menu" HorizontalAlignment="Center" Height="113" Margin="0,1428,0,0" VerticalAlignment="Top" Width="338" RenderTransformOrigin="0.537,0.336" FontFamily="Arial" FontSize="36" Click="Button_Click" FontStyle="Normal" FontWeight="Normal" BorderBrush="#FF555252" Background="White"/>
+        <Button x:Name="Staff" Content="Call For Staff" HorizontalAlignment="Center" Height="113" Margin="0,1644,0,0" VerticalAlignment="Top" Width="530" RenderTransformOrigin="0.537,0.336" FontFamily="Arial" FontSize="36" Click="Button_Click" FontStyle="Normal" FontWeight="Normal" BorderBrush="#FF555252" Background="White"/>
+    </Grid>
+</Window>
